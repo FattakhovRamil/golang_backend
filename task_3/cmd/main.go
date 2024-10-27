@@ -8,7 +8,7 @@ import (
 func main() {
 	source := "file"
 	if len(os.Args) > 1 {
-		source = os.Args[1] // Пример: передать "stdin" для чтения из стандартного ввода
+		source = os.Args[1]
 	}
 
 	app := &app.App{}

@@ -16,13 +16,11 @@ import (
 type App struct{}
 
 func (app *App) Run(source string) {
-	// Загрузка конфигурации
 	cfg, err := config.LoadConfig()
 	if err != nil {
 		log.Fatalf("Failed to load config: %v", err)
 	}
 
-	// Открытие файлов логов и результата
 	logFile, err := os.OpenFile(cfg.LogFile, os.O_APPEND|os.O_CREATE|os.O_WRONLY, 0644)
 	if err != nil {
 		log.Fatalf("Failed to open log file: %v", err)
@@ -50,11 +48,9 @@ func (app *App) Run(source string) {
 		dataReader = reader.NewFileReader(cfg.InputFile)
 	}
 
-	// Используем sync.WaitGroup для ожидания завершения горутин
 	var wg sync.WaitGroup
 	wg.Add(2)
 
-	// Запуск горутины для чтения данных
 	go func() {
 		defer wg.Done()
 		data, err := dataReader.ReadData()
@@ -65,7 +61,6 @@ func (app *App) Run(source string) {
 		dataChan <- data
 	}()
 
-	// Запуск горутины для выполнения HTTP GET запроса
 	go func() {
 		defer wg.Done()
 		httpChecker := http.NewSimpleHTTPChecker()
@@ -77,7 +72,6 @@ func (app *App) Run(source string) {
 		statusChan <- status
 	}()
 
-	// Закрытие каналов по завершении всех горутин
 	go func() {
 		wg.Wait()
 		close(dataChan)
@@ -113,7 +107,6 @@ func (app *App) Run(source string) {
 			return
 		}
 
-		// Если все каналы закрыты, завершаем обработку
 		if dataChan == nil && statusChan == nil && errChan == nil {
 			break
 		}
