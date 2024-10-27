@@ -1,0 +1,3 @@
+input_file: "json_file/data.json"
+url: "http://example.com"
+log_file: "logs/app.log"

@@ -1,0 +1,19 @@
+2024/10/25 15:55:24 [INFO]: Reading data from file: data.json
+2024/10/25 15:55:24 [Error]: Failed to read data: open data.json: no such file or directory
+2024/10/25 15:55:34 [INFO]: Reading data from file: data.json
+2024/10/25 15:55:34 [Error]: Failed to read data: open data.json: no such file or directory
+2024/10/25 15:57:31 [INFO]: Reading data from file: json_file/data.json
+2024/10/25 15:57:31 [INFO]: Total sum: 55
+2024/10/25 15:57:32 [INFO]: URL status: 200
+2024/10/25 16:11:53 [INFO]: Total sum: 55
+2024/10/25 16:11:54 [INFO]: URL status: 200
+2024/10/25 17:30:59 [INFO]: Total sum: 55
+2024/10/25 17:31:00 [INFO]: URL status: 200
+2024/10/25 17:38:52 [INFO]: Total sum: 55
+2024/10/25 17:38:52 [ERROR]: Failed to check URL Get "http://.example.com": dial tcp: lookup .example.com: no such host
+2024/10/25 19:43:53 [INFO]: Total sum: 55
+2024/10/25 19:43:54 [INFO]: URL status: 200
+2024/10/27 17:24:21 [INFO]: Total sum: 55
+2024/10/27 17:24:22 [INFO]: URL status: 200
+2024/10/27 17:25:32 [INFO]: Total sum: 55
+2024/10/27 17:25:33 [INFO]: URL status: 200

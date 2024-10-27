@@ -1,0 +1,43 @@
+2024/10/25 15:55:24 [INFO]: Reading data from file: data.json
+2024/10/25 15:55:24 [Error]: Failed to read data: open data.json: no such file or directory
+2024/10/25 15:55:34 [INFO]: Reading data from file: data.json
+2024/10/25 15:55:34 [Error]: Failed to read data: open data.json: no such file or directory
+2024/10/25 15:57:31 [INFO]: Reading data from file: json_file/data.json
+2024/10/25 15:57:31 [INFO]: Total sum: 55
+2024/10/25 15:57:32 [INFO]: URL status: 200
+2024/10/25 16:11:53 [INFO]: Total sum: 55
+2024/10/25 16:11:54 [INFO]: URL status: 200
+2024/10/25 17:30:59 [INFO]: Total sum: 55
+2024/10/25 17:31:00 [INFO]: URL status: 200
+2024/10/25 17:38:52 [INFO]: Total sum: 55
+2024/10/25 17:38:52 [ERROR]: Failed to check URL Get "http://.example.com": dial tcp: lookup .example.com: no such host
+2024/10/25 19:45:17 [INFO]: Total sum: 8
+2024/10/25 19:45:17 [INFO]: URL status: 200
+2024/10/25 19:56:36 [INFO]: Total sum: 55
+2024/10/25 19:56:37 [INFO]: URL status: 200
+2024/10/25 20:02:49 [INFO]: Total sum: 55
+2024/10/25 20:03:03 [INFO]: URL status: 200
+2024/10/25 20:03:09 [INFO]: URL status: 200
+2024/10/25 20:03:16 [INFO]: Total sum: 55
+2024/10/25 20:04:26 [INFO]: Total sum: 55
+2024/10/25 20:04:44 [INFO]: Total sum: 55
+2024/10/25 20:04:50 [INFO]: URL status: 200
+2024/10/25 20:07:24 [INFO]: URL status: 200
+2024/10/25 20:12:01 [INFO]: Total sum: 55
+2024/10/25 20:14:25 [INFO]: Total sum: 55
+2024/10/25 20:14:25 [INFO]: URL status: 200
+2024/10/25 20:14:39 [INFO]: URL status: 200
+2024/10/25 20:14:44 [INFO]: Total sum: 102
+2024/10/25 20:19:05 [INFO]: URL status: 200
+2024/10/25 20:19:07 [ERROR]: Error occurred failed to read data: invalid character 'Ñ' looking for beginning of value
+2024/10/25 20:19:59 [INFO]: URL status: 200
+2024/10/25 20:20:08 [INFO]: URL status: 200
+2024/10/25 20:20:20 [ERROR]: Error occurred failed to read data: invalid character 'a' looking for beginning of value
+2024/10/25 20:20:44 [INFO]: Total sum: 55
+2024/10/25 20:20:44 [INFO]: URL status: 200
+2024/10/25 20:21:02 [INFO]: Total sum: 55
+2024/10/25 20:21:03 [INFO]: URL status: 200
+2024/10/25 20:21:09 [INFO]: URL status: 200
+2024/10/25 20:21:14 [INFO]: Total sum: 124
+2024/10/25 20:22:06 [INFO]: Total sum: 55
+2024/10/25 20:22:07 [INFO]: URL status: 200
